@@ -803,23 +803,24 @@
       .nav-links { display: none; }
     .hamburger { display: flex; }
     .mobile-nav { display: flex; }
-    
     .nav-container{
-      margin: 10px;
+      margin: 28px;
     }
     .services-grid { grid-template-columns: 1fr; }
     .hero-stats { flex-wrap: wrap; gap: 16px; }
     .stat-divider { display: none; }
     .hero-content { padding-top: 100px; }
-    .condition-card
+    .conditions-grid { grid-template-columns: 1fr; }
+    
+     .condition-card
     {
-      width: 100%;
-      margin: 20px;
-     
+      width: 550px;
+      margin-left: auto;
+      margin-right: auto;
     }
     .con img
     {
-       width: 225px;
+      width: 525px;
     }
   }
   @media(max-width:768px) {
@@ -850,13 +851,12 @@
     .hero-content { padding-top: 100px; }
     .condition-card
     {
-      width: 100%;
-       margin: 0px;
+      width: 390px;
+      margin: 0;
     }
-    
     .con img
     {
-      width: 380px;
+      width: 370px;
     }
   }
 
