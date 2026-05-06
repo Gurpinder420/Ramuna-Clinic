@@ -27,7 +27,6 @@
     font-family: 'Poppins', sans-serif;
     color: var(--text-dark);
     background: var(--white);
-    overflow-x: hidden;
     line-height: 1.7;
     overflow-x: hidden;
   }
@@ -853,8 +852,8 @@
     .condition-card
     {
       width: 350px;
-      margin: 0;
-      margin-left: -15px;
+     margin-left: auto;
+     margin-right: auto;
     }
     .con img
     {
