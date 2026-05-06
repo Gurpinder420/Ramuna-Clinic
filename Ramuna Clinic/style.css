@@ -812,15 +812,17 @@
     .hero-content { padding-top: 100px; }
     .conditions-grid { grid-template-columns: 1fr; }
     
-     .condition-card
-    {
-      width: 550px;
-      margin-left: auto;
-      margin-right: auto;
+    .condition-card {
+      width: 100%;
+      max-width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0 16px;
+      box-sizing: border-box;
     }
-    .con img
-    {
-      width: 525px;
+    .con img {
+      width: 100%;
+      max-width: 100%;
     }
   }
   @media(max-width:768px) {
@@ -851,13 +853,17 @@
     .hero-content { padding-top: 100px; }
     .condition-card
     {
-      width: 350px;
-     margin-left: auto;
-     margin-right: auto;
+      width: 100%;
+      max-width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0 16px;
+      box-sizing: border-box;
     }
     .con img
     {
-      width: 325px;
+      width: 100%;
+      max-width: 100%;
     }
   }
 
